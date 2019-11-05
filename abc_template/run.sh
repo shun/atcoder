@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-clang++-7 -std=c++14 -O3 -o $1.out $1
+clang++ -std=c++14 -O3 -o $1.out $1
 
 IN=""
 cat - | while read line
