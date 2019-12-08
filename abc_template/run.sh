@@ -8,6 +8,7 @@ cat - | while read line
 do
     if [ ${#line} -eq 0 ]; then
         echo -e $IN | ./$1.out
+        echo ""
         IN=""
     else
         IN="$IN\n$line"
