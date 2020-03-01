@@ -11,6 +11,10 @@ int main(int argc, char ** argv)
 
   int d[] = {1, 0, 0};
   int flg[] = {0, 0, 0};
+
+  if ((n == 1) && (m == 0)) {
+    d[0] = 0;
+  }
   for (int i = 0; i < m; i++) {
     int s, c;
     std::cin >> s >> c;
