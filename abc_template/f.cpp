@@ -1,8 +1,8 @@
 #include <iostream>
 
-int
-main(int argc, char** argv) {
+using ll = long long;
+int main(int argc, char ** argv)
+{
   //
-    return 0;
+  return 0;
 }
-
